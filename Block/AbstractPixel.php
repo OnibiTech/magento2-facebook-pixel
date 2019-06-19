@@ -150,7 +150,7 @@ abstract class AbstractPixel extends Template
      */
     public function formatPrice($amount)
     {
-        return $this->price->roundPrice($amount);
+        return $this->price->round($amount);
     }
 
     /**
